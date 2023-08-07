@@ -1,0 +1,222 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-image: url('./images/menubanner.jpg');
+}
+
+
+
+.contactHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+    /* color: white; */
+}
+.contact {
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    /* border: 2px solid black; */
+}
+.cardSection {
+    /* margin-top: 100px; */
+    /* width: 300px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 350px;
+    height: 286px;
+    /* border: 1px solid black; */
+}
+.card1:hover{
+    border-radius: 7px;
+    /* width: 380px; */
+    box-shadow: 2px 2px 30px 8px rgba(188, 186, 186, 0.5) ;
+    transition: .7s;
+    cursor: pointer;
+}
+.cnt{
+    height: 30px;
+    margin-bottom: 20px;
+}
+.cnt h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color:  #222222;
+    margin: 0;
+
+}
+.telephone {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+.p{
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.telePara {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color : #89b857
+}
+.tel {
+    height: 28px;
+}
+.tel p{
+    font-size: 16px;
+    color: #777777;
+    margin: 0;
+}
+.mail p{
+    color: #777777;
+    font-size: 16px;
+}
+.card2{
+    margin-top: 200px;
+    width: 350px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 30px 8px rgba(188, 186, 186, 0.5) ;
+    cursor: pointer;
+}
+.direction{
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 25px;
+}
+.card2Heading{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px;
+}
+.card2Heading h2{
+    font-size: 30px;
+    color: #222222;
+    font-weight: 800;
+}
+.card2Para {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+.card2Para p{
+    font-size: 16px;
+    color: #777777;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 350px;
+    height: 286px;
+    /* border: 1px solid black; */
+}
+.card3:hover{
+    border-radius: 7px;
+    box-shadow: 2px 2px 30px 8px rgba(188, 186, 186, 0.5) ;
+    transition: .7s;
+    cursor: pointer;
+}
+.open h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.card3Para p{
+    font-size: 16px;
+    color : #54595f;
+    margin-bottom: 20px;
+}
+.bor{
+    width: 290px;
+    border-top: 2px dotted #7a7a7a;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    line-height: 1;
+    /* border: 2px solid black; */
+}
+.day p{
+    color: #54595f;
+}
+
+.question {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 600px;
+    /* margin-top: 100px; */
+}
+.form{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.form input {
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    /* border-radius: 4px; */
+    /* border: none; */
+}
+.form input:focus{
+    outline: none;
+}
+.form textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    border-radius:6px;
+}
+.form textarea:focus {
+    outline : none;
+}
+.ask h3{
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.bt {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #89b857;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.map{
+    margin-right: 20px;
+}

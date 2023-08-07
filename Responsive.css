@@ -1,0 +1,298 @@
+@media(max-width:1000px) {
+
+    .button {
+        background-color: #89b758;
+    }
+
+    .slogan-h1 {
+        font-size: 60px;
+    }
+
+    .shake-image {
+        margin-top: 0px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .card-main-container {
+        width: 100%;
+    }
+
+    /* card div that contains images  */
+    .card {
+
+        height: 90%;
+        /* height: 165px; */
+        width: 100% !important;
+        /* width: 320px; */
+    }
+
+    /* Main Gallery Sectionn */
+    .gallery-section {
+        height: 2100px;
+    }
+
+    /* img div that contains gallery images  */
+    .gallery-img {
+        width: 380px;
+    }
+
+    /* gallery image */
+    .square {
+        width: 80%;
+    }
+
+
+    /* changing position of gallery images  */
+    .gallery-img:nth-child(6) {
+        position: relative;
+        top: 600px;
+    }
+
+    .gallery-img:nth-child(5) {
+        position: relative;
+        top: 300px;
+    }
+
+    .gallery-img:nth-child(4) {
+        position: relative;
+        top: 450px;
+    }
+
+    .gallery-img:nth-child(3) {
+        position: relative;
+        top: 150px;
+    }
+
+    .gallery-img:nth-child(2) {
+        position: relative;
+        top: 300px;
+    }
+
+
+
+
+
+    /* MENU PAGE  */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:790px) {
+
+    /* Main Gallery Sectionn */
+    .gallery-section {
+        height: 1850px;
+    }
+
+    /* img div that contains gallery images  */
+    .gallery-img {
+        width: 300px;
+    }
+
+    .contact{
+        width: 80%;
+    }
+
+    .para{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px) {
+
+    .slogan-h1 {
+        font-size: 48px;
+    }
+
+    /* image container heght adjustment */
+
+    .slogan-and-image-container {
+        height: 750px;
+
+    }
+
+    .image-container {
+        justify-content: center;
+        align-items: start;
+    }
+
+    .shake-image {
+        width: 380px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    /* container that contain card divs */
+    .card-main-container {
+        width: 100%;
+    }
+
+
+
+    @media(max-width:623px) {
+
+        /* Main Gallery Sectionn */
+        .gallery-section {
+            height: 1600px;
+        }
+
+        /* img div that contains gallery images  */
+        .gallery-img {
+            width: 235px;
+        }
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px) {
+
+    .slogan-h1 {
+        font-size: 48px;
+    }
+
+    .exploreBtn {
+        padding: 10px 40px;
+    }
+
+    /* image container heght adjustment */
+    .slogan-and-image-container {
+        height: 600px;
+    }
+
+    .shake-image {
+        width: 280px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+     /* Main Gallery Sectionn */
+     .gallery-section {
+        height: 3650px;
+    }
+
+
+    /* img div that contains gallery images  */
+    .gallery-img {
+        width: 90%;
+    }
+
+    /* gallery image */
+    .square {
+        width: 100%;
+    }
+
+
+    /* changing position of gallery images  */
+    .gallery-img:nth-child(6) {
+        position: relative;
+        top: 0px;
+    }
+
+    .gallery-img:nth-child(5) {
+        position: relative;
+        top: 0px;
+    }
+
+    .gallery-img:nth-child(4) {
+        position: relative;
+        top: 0px;
+    }
+
+    .gallery-img:nth-child(3) {
+        position: relative;
+        top: 0px;
+    }
+
+    .gallery-img:nth-child(2) {
+        position: relative;
+        top: 0px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:450px) {
+    .square {
+        width: 100%;
+    }
+
+    .gallery-section {
+        height: 3350px;
+    }
+
+}
+
+
+
+/* for slim devices like s9+ or moto */
+
+@media(max-width:400px) {
+    .slogan-h1 {
+        font-size: 38px;
+    }
+
+    .gallery-section {
+        height: 3000px;
+    }
+
+ 
+
+}
+
+@media(max-width:320px){
+    
+    .gallery-section{
+        height: 2500px;
+    }
+}

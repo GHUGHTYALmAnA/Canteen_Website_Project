@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact-My College Canteen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact_responsive.css">
+    <!-- <link rel="stylesheet" href="./responsive2.css"> -->
+    
+</head>
+
+<body>
+    <div class=" a container">
+        <nav class=" nav navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="../IMAGES/restaurant.png" width="50px" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../canteen website (3)/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://www.google.com/maps/dir//ABESIT+ACADEMIC+BLOCK,+ABESIT+College+Of+Engineering,+Vijayanagar,+Chipiyana+Buzurg,+Ghaziabad,+Uttar+Pradesh+201009/@28.633018,77.4457913,400m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x390cefbfe480465b:0x978a130d455d3de6!2m2!1d77.4470234!2d28.6332494!3e0?entry=ttu">Direction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"style="color: #89b758;">Contact</a>
+                        </li>
+
+
+
+                    </ul>
+                    <button class="button" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                    <button class="button" data-bs-toggle="modal" data-bs-target="#SignupModal">SignUp</button>
+                    <a href=""><button class="signout">Sign Out</button></a>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <!-- login modal -->
+
+
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Log In</button>
+                        <button type="submit" class="btn btn-danger">Forgot Your password?</button>
+                    </form>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <h6>Don't have an account - </h6>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal"
+                        data-bs-target="#SignupModal">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- signup Modal -->
+
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label" placeholder="eg: xyz@gmail.com">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputAdmissionNumber" class="form-label">Admission Number</label>
+                            <input type="text" class="form-control" id="exampleInputAdmissionNumber"
+                                placeholder="Only for Students">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Make a Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Re-Enter Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2" required>
+                        </div>
+
+
+
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option selected>CSE</option>
+                                <option value="1">CSE(AI)</option>
+                                <option value="2">CSE(DS)</option>
+                                <option value="3">CSE(IOT)</option>
+                                <option value="4">IT</option>
+                            </select>
+                            <label for="floatingSelect">Select Your Branch (Only for Students)</label>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-success" style="margin-top: 20px;">Sign Up</button>
+                    </form>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT  -->
+
+    <section class="contactHeading">
+        <h1 class="contact">Contact</h1>
+    </section>
+
+    <main>
+        <div class="cardSection">
+
+            <!-- CARD 1 -->
+
+            <div class="card1">
+                <div class="cnt">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="telephone">
+                    <img class="telImg" src="./images/telephone.png" width="28px" height="28px">
+                    <div class="p">
+                        <p class="telePara">+91 xxxxxxxxxx</p>
+                    </div>
+                </div>
+                <div class="tel">
+                    <p>Tel: +91 xxxxxxxxxx</p>
+                </div>
+                <div class="mail">
+                    <p>Email: info@collegecanteen.com</p>
+                </div>
+            </div>
+
+            <!-- CARD2  -->
+
+            <div class="card2">
+                <div class="direction">
+                    <img src="./images/direction.png" width="50px" height="50px">
+                </div>
+                
+                <div class="card2Heading">
+                    <h2>Get Direction</h2>
+                </div>
+                <div class="card2Para">
+                    <p>Abesit</p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="card3">
+                <div class="open">
+                    <h2>Opening Hours</h2>
+                </div>
+                <div class="card3Para">
+                    <p>Monday-Saturday</p>
+                </div>
+                <div class="bor"></div>
+                <div class="day">
+                    <p class="para1">Monday-Saturday</p>
+                    <p class="time">9:00AM - 6:00PM</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="questionSection">
+        <div class="question">
+            <div class="ask">
+                <h3>Ask a question</h3>
+                <form action="#" class="form">
+                    <input type="text" placeholder="Name"><br><br>
+                    <input type="emial" placeholder="Email"><br><br>
+                    <input type="number" placeholder="Phone Number"><br><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Mesaage"></textarea>
+                </form>
+                <button class="bt">Send Message</button>
+            </div>
+            <div class="map">
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.871565033473!2d77.44511047564322!3d28.633611175664075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee3d4e3485ed%3A0xe0fe1689b57c7d2e!2sABESIT%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1690289137326!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="location"></iframe></p>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./contact.js"></script>
+</body>
+
+</html>

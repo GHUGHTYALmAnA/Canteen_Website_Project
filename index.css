@@ -1,0 +1,395 @@
+ body {
+
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     background-image: url('./IMAGES/banner_dot.png');
+ }
+
+
+
+ /* navbar adjusment  */
+ .navbar {
+     box-shadow: .5px .5px 3px black !important;
+     margin-top: 30px;
+     border-radius: 5px;
+     padding: 10px 8%;
+     background-color: whitesmoke !important;
+     box-sizing: border-box;
+ }
+
+ /* list Items */
+ .navbar-nav {
+     margin-right: 5px;
+
+ }
+
+
+ /* NavBAr Options */
+ .nav-link {
+     margin: 10px;
+ }
+
+ .nav-link:hover {
+     color: #61CE70 !important;
+ }
+
+ /* LOGIN SIGNUP Buttons  */
+ .button {
+     margin-left: 8px;
+     background-color: transparent;
+     height: 40px;
+     width: 80px;
+     border: none;
+     border-radius: 10px;
+
+ }
+
+ .button:hover {
+     background-color: #61CE70;
+ }
+ .cart{
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #89b758;
+}
+.cart img{
+    width: 40px;
+    height: 40px;
+}
+
+ /* signOut Button to be displayed after login in signup */
+ .signout {
+     margin-left: 10px;
+     background-color: transparent;
+     height: 40px;
+     width: 80px;
+     border: none;
+     border-radius: 10px;
+     display: none;
+ }
+
+ .signout:hover {
+     background-color: #89b758;
+ }
+
+ /* signup sorm heading */
+ #exampleModalLabel {
+     color: #198754;
+
+ }
+
+ .slogan-and-image-container {
+     width: 100%;
+     height: 860px;
+     /* background-color: red; */
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+     justify-content: start;
+     align-items: center;
+     /* overflow: hidden; */
+
+ }
+
+ /* #weAreOpen {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    } */
+ .text-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 50px;
+     /* background-color: red; */
+ }
+
+ .slogan-h1 {
+     font-family: 'Alex Brush', cursive;
+     font-size: 99px;
+     font-weight: 900;
+     color: #808080;
+     /* color: #89b758; */
+ }
+
+ .slogan-h1 p {
+     font-family: 'Alex Brush', cursive;
+     color: black;
+     margin: 0;
+     text-align: center;
+ }
+
+ .slogan-span {
+     display: block;
+     margin-top: -10px;
+     text-align: center;
+ }
+
+ .exploreBtn {
+     background-color: #89b758;
+     border: none;
+     padding: 15px 50px;
+     font-size: 16px;
+     border-radius: 50px;
+ }
+
+ .exploreBtn:hover {
+     transition: .4s;
+     background-color: #91c659;
+ }
+
+
+ .image-container {
+     width: 95%;
+     max-width: 1450px;
+     display: flex;
+     justify-content: end;
+     align-items: start;
+ }
+
+ .shake-image {
+     margin-top: -150px;
+     width: 510px;
+     height: 600px;
+ }
+
+
+
+
+ /* Card Section */
+
+ /* setting width adn siplay of main section */
+ .card-container {
+     width: 100%;
+     /* background-color: red; */
+     background-color: white;
+     padding-top: 80px;
+     height: auto;
+
+     display: flex;
+     justify-content: center;
+ }
+
+ /* container that contain card divs */
+ .card-main-container {
+     width: 80%;
+     max-width: 1300px;
+     /* background-color: cyan; */
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+
+ /* card div that contains images  */
+ .card {
+     max-width: 540px;
+     height: 270px;
+     width: 100%;
+     border: none;
+     border-radius: 20px;
+     background-color: transparent;
+     margin-top: 30px;
+     padding: 0 10px;
+ }
+
+
+
+ .card img:hover {
+     box-shadow: 2px 2px 5px black;
+ }
+
+ /* the card images */
+
+ .card img {
+     border-radius: 20px;
+     width: 100%;
+     height: 100%;
+ }
+
+
+ /* Gallery Section */
+
+ /* Main Gallery Sectionn */
+ .gallery-section {
+     margin-top: 120px;
+     padding-top: 50px;
+     width: 100%;
+     height: 3400px;
+     display: flex;
+     flex-direction: column;
+
+     align-items: center;
+     background-color: rgb(247, 232, 217);
+     ;
+ }
+
+ /* container div that contains the gallery image divs  */
+ .gallery-img-container {
+     width: 100%;
+     max-width: 1300px;
+     /* background-color: red; */
+     padding: 0 10px;
+     display: flex;
+     /* background-color: red; */
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+
+ /* div taht contains gallery image  */
+ .gallery-img {
+     width: 480px;
+     height: auto;
+
+     display: flex;
+     justify-content: center;
+
+ }
+
+ /* gallery image  */
+ .square {
+     width: 100%;
+
+ }
+
+ /* adjusting the positions of gallery div */
+ .gallery-img:nth-child(6) {
+     position: relative;
+     top: 1100px;
+ }
+
+ .gallery-img:nth-child(5) {
+     position: relative;
+     top: 650px;
+ }
+
+ .gallery-img:nth-child(4) {
+     position: relative;
+     top: 800px;
+ }
+
+ .gallery-img:nth-child(3) {
+     position: relative;
+     top: 350px;
+ }
+
+ .gallery-img:nth-child(2) {
+     position: relative;
+     top: 500px;
+ }
+
+
+
+
+ .space {
+     width: 100%;
+     height: 300px;
+     background-image: url('./IMAGES/footerbg.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+
+
+
+
+ /* Footer starts */
+
+ .footer {
+     height: 500px;
+     width: 100%;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+
+ }
+
+
+ .content {
+     width: 100%;
+     height: 100%;
+
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ .contact{
+     width: 30%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .c {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     width: 80%;
+     margin: 10px 0;
+ }
+
+ .size {
+     width: 30px;
+     height: 30px;
+
+     margin: 0px 10px 13px 0px;
+
+ }
+
+ .size50 {
+     width: 50px;
+     height: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+ .para {
+     width: 20%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+
+ .buttons {
+     width: 10%;
+     height: 100%;
+     /* background-color: cyan; */
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+ }
+
+ .size50 {
+     width: 30px;
+     height: 30px;
+ }
+
+
+
+ .expand {
+     width: 70px;
+     height: 60px;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     padding-left: 10px;
+     transition: .5s;
+     justify-content: start;
+ }
+
+ .expand:hover {
+     width: 100px;
+     border-radius: 5px 0 0 5px;
+ }

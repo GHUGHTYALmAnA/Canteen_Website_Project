@@ -1,0 +1,1446 @@
+@media(max-width:1100px){
+    /* .question{
+        display: flex;
+        justify-content: space-between;
+    } */
+    .contact{
+        font-size: 40px;
+    }
+    .ask{
+        height: 500px;
+        width: 500px;
+        /* border: 2px solid black; */
+    }
+    .form input{
+        width: 450px;
+    }
+    .form textarea{
+        width: 450px;
+    }
+    .map{
+        margin: 0;
+    }
+    .location{
+        width: 500px;
+        height: 500px;
+    }
+}
+@media(max-width:970px){
+    .contact{
+        font-size: 40px;
+    }
+    .ask{
+        height: 456px;
+        width: 504px;
+        /* border: 2px solid black; */
+    }
+    .form input{
+        width: 435px;
+    }
+    .form textarea{
+        width: 435px;
+    }
+    .map{
+        margin: 0;
+    }
+    .location{
+        width: 456px;
+        height: 490px;
+    }
+    .bt{
+        width: 148px;
+        font-size: 16px;
+    }
+}
+@media(max-width:913px){
+    .contact{
+        font-size: 40px;
+    }
+    .ask{
+        height: 406px;
+        width: 450px;
+        /* border: 2px solid black; */
+    }
+    .form{
+        margin: 4px 0px 0px 10px;
+    }
+    .form input{
+        width: 406px;
+    }
+    .form textarea{
+        width: 406px;
+    }
+    .map{
+        margin: 0;
+    }
+    .location{
+        width: 400px;
+        height: 406px;
+    }
+    .card1{
+        width: 274px;
+        height: 305px;
+    }
+    .card2{
+        width: 274px;
+        height: 305px;
+    }
+    .card3{
+        width: 274px;
+        height: 305px;
+    }
+    .bor{
+        width: 213px;
+    }
+}
+@media(max-width:815px){
+    .contact{
+        font-size: 40px;
+    }
+    .ask{
+        height: 484px;
+        width: 335px;
+        /* border: 2px solid black; */
+    }
+    .form{
+        margin:0;
+    }
+    .form input{
+        width: 350px;
+    }
+    .form textarea{
+        width: 350px;
+    }
+    .map{
+        margin: 0;
+    }
+    .location{
+        width: 357px;
+        height: 470px;
+    }
+    .card1{
+        width: 242px;
+        height: 305px;
+    }
+    .cnt h2{
+        font-size: 22px;
+    }
+    .telImg{
+        width: 22px;
+        height: 22px;
+    }
+    .telePara{
+        font-size: 20px;
+    }
+    .card2{
+        width: 242px;
+        height: 305px;
+    }
+    .card2Heading h2{
+        font-size: 22px;
+    }
+    .card3{
+        width: 242px;
+        height: 305px;
+    }
+    .open h2{
+        font-size: 22px;
+    }
+    .bor{
+        width: 190px;
+    }
+}
+@media(max-width:767px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 514px;
+        height: 146px;
+        margin: 100px 0px 0px 20px;
+    }
+    .card2{
+        width: 509px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 0px 0px 20px;
+    }
+    .card3{
+        width: 585px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding-top: 10px;
+    }
+    .bor{
+        width: 585px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 526px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 506px;
+    }
+    .form textarea{
+        width: 506px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 300px;
+        height: 480px;
+        margin: 10px 0px 0px 20px;
+    }
+}
+@media(max-width:605px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 575px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 575px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 515px;
+        height: 160px;
+        /* margin: 10px 0px 0px 20px; */
+    }
+    .day{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .bor{
+        width: 505px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 545px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 535px;
+    }
+    .form textarea{
+        width: 535px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 576px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:585px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 555px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 555px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 495px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 495px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 525px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 505px;
+    }
+    .form textarea{
+        width: 505px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 556px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:565px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 535px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 535px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 475px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 475px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 505px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 495px;
+    }
+    .form textarea{
+        width: 495px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 536px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:545px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 515px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 515px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 455px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 455px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 485px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 475px;
+    }
+    .form textarea{
+        width: 475px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 516px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:525px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 495px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 495px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 435px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 435px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 465px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 455px;
+    }
+    .form textarea{
+        width: 455px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 496px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:505px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 475px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 475px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 415px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 415px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 445px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 435px;
+    }
+    .form textarea{
+        width: 435px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 476px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:485px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 455px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 455px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 395px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 395px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 425px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 415px;
+    }
+    .form textarea{
+        width: 415px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 456px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:465px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 435px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 435px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 375px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 375px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 405px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 395px;
+    }
+    .form textarea{
+        width: 395px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 436px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:445px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 415px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 415px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 355px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 355px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 385px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 375px;
+    }
+    .form textarea{
+        width: 375px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 416px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:425px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 395px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 395px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 335px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 335px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 365px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 355px;
+    }
+    .form textarea{
+        width: 355px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 396px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:405px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 375px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 375px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 0px;
+    }
+    .card3{
+        width: 315px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        gap: 50px;
+    }
+    .bor{
+        width: 315px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 345px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 335px;
+    }
+    .form textarea{
+        width: 335px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 376px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:385px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 355px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 355px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .open h2{
+        padding-top: 20px;
+    }
+    .card3{
+        width: 295px;
+        height: 160px;
+        margin: 0;
+        /* border: 2px solid black; */
+    }
+    .day{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        /* justify-content: center; */
+        /* height: 100px; */
+    }
+    .bor{
+        width: 295px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 325px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 315px;
+    }
+    .form textarea{
+        width: 315px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 356px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:365px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 335px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 335px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 275px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .bor{
+        width: 275px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 305px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 295px;
+    }
+    .form textarea{
+        width: 295px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 336px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:345px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 315px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 315px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 255px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+    }
+    .bor{
+        width: 255px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 285px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 275px;
+    }
+    .form textarea{
+        width: 275px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 316px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:325px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 295px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 295px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 235px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+    }
+    .bor{
+        width: 235px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 265px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 255px;
+    }
+    .form textarea{
+        width: 255px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 296px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:305px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 275px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 275px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 215px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+    }
+    .bor{
+        width: 215px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 245px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 235px;
+    }
+    .form textarea{
+        width: 235px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 276px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:285px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 255px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 255px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 195px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+    }
+    .bor{
+        width: 195px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 225px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+    }
+    .form input{
+        width: 215px;
+    }
+    .form textarea{
+        width: 215px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 256px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+@media(max-width:265px){
+    .contact{
+        font-size: 40px;
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 833px;
+        padding: 180px 0px 100px;
+        /* border: 2px solid black; */
+        /* margin-left: 20px; */
+    }
+    .question{
+        height: 984px;
+        /* border: 2px solid black; */
+    }
+    .card1{
+        width: 235px;
+        height: 146px;
+        margin: 100px 10px 0px 0px;
+    }
+    .card2{
+        width: 235px;
+        height: 300px;
+        /* padding: 50px 45px; */
+        margin: 0px 10px 0px 10px;
+    }
+    .card3{
+        width: 175px;
+        height: 160px;
+        margin: 10px 0px 0px 20px;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+    }
+    .bor{
+        width: 175px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+    }
+    .ask{
+        width: 205px;
+        height: 504px;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+    .ask h3{
+        padding: 0;
+        /* font-size: 22px; */
+    }
+    .form input{
+        width: 195px;
+    }
+    .form textarea{
+        width: 195px;
+    }
+    .bt{
+        width: 158px;
+    }
+    .location{
+        width: 236px;
+        height: 480px;
+        margin: 10px 0px 0px 8px;
+    }
+}
+
+
+
+

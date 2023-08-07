@@ -1,0 +1,1118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu-My College Canteen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="./menu1.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class=" a container">
+      <nav class=" nav navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="../IMAGES/restaurant.png" width="50px" height="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../" style="color: #89b758;">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"
+                  href="https://www.google.com/maps/dir//ABESIT+ACADEMIC+BLOCK,+ABESIT+College+Of+Engineering,+Vijayanagar,+Chipiyana+Buzurg,+Ghaziabad,+Uttar+Pradesh+201009/@28.633018,77.4457913,400m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x390cefbfe480465b:0x978a130d455d3de6!2m2!1d77.4470234!2d28.6332494!3e0?entry=ttu">Direction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../Contact/contact.html">Contact</a>
+              </li>
+
+
+
+            </ul>
+            <button class="button" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+            <button class="button" data-bs-toggle="modal" data-bs-target="#SignupModal">SignUp</button>
+
+            <button class="cart" data-bs-toggle="modal" data-bs-target="#cart"><img src="./IMAGES/cart.png"
+                alt=""></button>
+
+
+            <a href=""><button class="signout">Sign Out</button></a>
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+
+
+
+
+    <!-- login modal -->
+
+
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+
+
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" required>
+              </div>
+
+              <button type="submit" class="btn btn-success">Log In</button>
+              <button type="submit" class="btn btn-danger">Forgot Your password?</button>
+            </form>
+
+
+
+          </div>
+          <div class="modal-footer">
+            <h6>Don't have an account - </h6>
+            <button type="button" class="btn btn-info" data-bs-toggle="modal"
+              data-bs-target="#SignupModal">SignUp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- signup Modal -->
+
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" placeholder="eg: xyz@gmail.com">Email
+                  address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputAdmissionNumber" class="form-label">Admission Number</label>
+                <input type="text" class="form-control" id="exampleInputAdmissionNumber"
+                  placeholder="Only for Students">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Make a Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword2" class="form-label">Re-Enter Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword2" required>
+              </div>
+
+
+
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>CSE</option>
+                  <option value="1">CSE(AI)</option>
+                  <option value="2">CSE(DS)</option>
+                  <option value="3">CSE(IOT)</option>
+                  <option value="4">IT</option>
+                </select>
+                <label for="floatingSelect">Select Your Branch (Only for Students)</label>
+              </div>
+
+
+              <button type="submit" class="btn btn-success" style="margin-top: 20px;">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- cart modal -->
+    <section class="cart">
+      <div class="modal" id="cart" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color : #198754">Cart <span class="counter"> </span></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modalBody">
+                <!-- items to be inserted -->
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p class=" money btn btn-dark "></p>
+              <button type="button" class=" payment btn btn-success"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </nav>
+
+
+
+  <!-- MENU SECTION -->
+
+
+  <div class="menu">
+    <h1 id="canteen_menu">Menu</h1>
+  </div>
+  <div id="menu_collection">
+    <div class="fresh_juice">
+      <h2 class="menu_para" style="color: #89b758;">Menu</h2>
+      <h2 class="juice" style="color:#222222">Shakes & Mocktail</h2>
+    </div>
+  </div>
+
+
+
+  <!-- SHAKES AND MOCKTAIL  -->
+  <section>
+    <div class="box">
+      <!-- SHAKES -->
+      <div class="shakeBox">
+        <div id="shakes">
+          <h2 class="food">Shake</h2>
+        </div>
+        <!-- CHOCOLATE SHAKE -->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+
+          <div class="accordion-item" id="i1">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Chocolate Shake</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Milk , Chocolate Ice Cream , Chocolate Syrup , Chocolate.
+                  <img src="./images/chocolate.png" width="45px" height="70px" style="margin-left: 5px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i1)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- VANILLA SHAKE -->
+
+          <div class="accordion-item" id="i2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Vanilla Shake</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Milk , Vanilla Ice Cream , Sugar , Vanilla Extract.
+                  <img src="./images/vanilla.png" width="85px" height="70px" style="margin-left: 35px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i2)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- OREO SHAKE -->
+
+          <div class="accordion-item" id="i3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Oreo Shake</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Milk , Chocolate Ice Cream , Sugar , Oreo.
+                  <img src="./images/oreo.png" width="65px" height="80px" style="margin-left: 60px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i3)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- BUTTER SCOTCH SHAKE -->
+
+          <div class="accordion-item" id="i4">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Butter Scotch Shake</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Milk , Butter Scotch Ice Cream , Sugar , Vanilla Extract.
+                  <img src="./images/btc.png" width="65px" height="80px">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i4)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOCKTAIL -->
+
+      <div class="juiceBox">
+        <div id="mock">
+          <h2 class="food">Mocktail</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- MOJITO -->
+
+          <div class="accordion-item" id="i5">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Mojito</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Simple Syrup , Lime, Club Soda, Ice.
+                  <img src="./images/mojito.png" width="45px" height="70px" style="margin-left: 120px;">
+                </p>
+                <strong>Price = ₹<span">40</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i5)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STRAWBERRY CRUSH -->
+
+          <div class="accordion-item" id="i6">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Strawberry Crush</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Strawberry , Water , Sugar , Natural Flavorings.
+                  <img src="./images/strwaberry.png" width="65px" height="70px" style="margin-left: 35px;">
+                </p>
+                <strong>Price = ₹<span">40</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i6)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MASALA LEMONADE -->
+
+          <div class="accordion-item" id="i7">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Masala Lemonade</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Water , Lemon Juice , Sugar , Black Salt.
+                  <img src="./images/lemonade.png" width="65px" height="80px" style="margin-left: 80px;">
+                </p>
+                <strong>Price = ₹<span">40</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i7)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- ORANGE CRUSH -->
+
+          <div class="accordion-item" id="i8">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Orange Crush</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Orange Juice , Citric Acid , Sugar , Natural Flavors.
+                  <img src="./images/orange.png" width="65px" height="75px">
+                </p>
+                <strong>Price = ₹<span">40</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i8)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SNACKS AND CHINESE SECTION  -->
+  <section>
+    <div id="menu_collection">
+      <div class="fresh_juice">
+        <h2 class="menu_para" style="color: #89b758;">Menu</h2>
+        <h2 class="juice" style="color:#222222">Snacks & Chinese</h2>
+      </div>
+    </div>
+    <div class="box">
+      <!-- SNACKS SECTION  -->
+      <div class="snkfoodBox1">
+        <div class="snacks">
+          <h2 class="food">Snacks</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- SAMOSA  -->
+
+          <div class="accordion-item" id="i9">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Samosa</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Flour(Maida) , Water , Oil , Potato , Salt.
+                  <img src="./images/samosa.png" width="80px" height="75px" style="margin-left: 50px;">
+                </p>
+                <strong>Price = ₹<span">10</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i9)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- BREAD PAKODA -->
+
+          <div class="accordion-item" id="i10">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Bread Pakoda</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Bread ,Chickpea Flour , Water , Oil , Potato , Salt.
+                  <img src="./images/bread.png" width="80px" height="75px" style="margin-left: 25px;">
+                </p>
+                <strong>Price = ₹<span">15</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i10)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- AALOO PATTIE -->
+
+          <div class="accordion-item" id="i11">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Aaloo Pattie</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Ready Made.
+                  <img src="./images/aaloo patties.png" width="75px" height="65px" style="margin-left: 240px;">
+                </p>
+                <strong>Price = ₹<span">20</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i11)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PANEER PATTIE -->
+
+          <div class="accordion-item" id="i12">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Paneer Pattie</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Ready Made.
+                  <img src="./images/paneer.png" width="90px" height="70px" style="margin-left: 220px;">
+                </p>
+                <strong>Price = ₹<span">25</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i12)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- French Fries -->
+
+          <div class="accordion-item" id="i13">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>French Fries</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Potato , Oil , Salt.
+                  <img src="./images/french fries.png" width="100px" height="80px" style="margin-left: 220px;">
+                </p>
+                <strong>Price = ₹<span">60</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i13)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- NACHOS -->
+
+          
+        </div>
+      </div>
+
+      <!-- CHINESE SECTION -->
+
+      <div class="snkfoodBox2">
+        <div class="chinese">
+          <h2 class="food">Chinese</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- VEG NOODLES  -->
+
+          <div class="accordion-item" id="i15">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFifteen" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Veg. Noodles</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFifteen" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Noodles , Salt , Vegetables , Soya Sauce.
+                  <img src="./images/noodles.png" width="75px" height="75px" style="margin-left: 50px;">
+                </p>
+                <strong>Price = ₹<span">50</span><span>Calories:15</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i15)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHILLI POTATO -->
+
+          <div class="accordion-item" id="i16">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSixteen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Chilli Potato</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSixteen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Potato , Salt , Vegetables , Natural Color.
+                  <img src="./images/chilli.png" width="75px" height="65px" style="margin-left: 50px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i16)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FRIED MOMOS -->
+
+          <div class="accordion-item" id="i17">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Fried Momos(8 psc)</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSeventeen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Momos , Oil , Soya Bean.
+                  <img src="./images/fried momos.png" width="75px" height="60px" style="margin-left: 180px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i17)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GRAVY MOMOS -->
+
+          <div class="accordion-item" id="i18">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEighteen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Gravy Momos</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseEighteen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Momos , Oil , Gravy.
+                  <img src="./images/gravy momos.png" width="75px" height="65px" style="margin-left: 200px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i18)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- SPRING ROLL -->
+
+          <div class="accordion-item" id="i19">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseNineteen" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Spring Roll</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseNineteen" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Spring Roll , Oil.
+                  <img src="./images/spring roll.png" width="85px" height="60px" style="margin-left: 230px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i19)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BEVERAGE AND DAY SPECIAL  -->
+
+  <section>
+    <div id="menu_collection">
+      <div class="fresh_juice">
+        <h2 class="menu_para" style="color: #89b758;">Menu</h2>
+        <h2 class="juice" style="color:#222222">Beverage & Specials</h2>
+      </div>
+    </div>
+    <div class="box">
+      <!-- BEVERAGE SECTION  -->
+      <div class="beverageBox">
+        <div class="beverage">
+          <h2 class="food">Beverage</h2>
+        </div>
+        <div class="bvgBox">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+
+            <!-- TEA  -->
+
+            <div class="accordion-item" id="i20">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwenty" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  <h6>Tea</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwenty" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Water , Milk , Sugar , Tea Leaf.
+                    <img src="./images/tea.png" width="70px" height="60px" style="margin-left: 140px;">
+                  </p>
+                  <strong>Price = ₹<span">10</span></strong>
+                  <button class="orderBtn btn btn-success" onclick="addToCart(i20)">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- COFFEE -->
+
+            <div class="accordion-item" id="i21">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwentyOne" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  <h6>Coffee</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwentyOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Water , Milk , Sugar , Coffee Powder.
+                    <img src="./images/coffee.png" width="70px" height="60px" style="margin-left: 100px;">
+                  </p>
+                  <strong>Price = ₹<span">20</span></strong>
+                  <button class="orderBtn btn btn-success" onclick="addToCart(i21)">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- COLD COFFEE -->
+
+            <div class="accordion-item" id="i22">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwentyTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <h6>Cold Coffee</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwentyTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Milk , Sugar , Coffe Powder.
+                    <img src="./images/cold coffee.png" width="70px" height="75px" style="margin-left: 150px;">
+                  </p>
+                  <strong>Price = ₹<span">50</span></strong>
+                  <button class="orderBtn btn btn-success" onclick="addToCart(i22)">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- COLD DRINK -->
+
+            <div class="accordion-item" id="i23">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwentyThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <h6>Cold Drinks</h6>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwentyThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Ready Made.
+                    <img src="./images/cold drinks.png" width="70px" height="75px" style="margin-left: 250px;">
+                  </p>
+                  <strong>Price = ₹<span">20</span></strong>
+                  <button class="orderBtn btn btn-success" onclick="addToCart(i23)">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SPECIAL SECTION -->
+
+      <div class="special">
+        <div class="spc">
+          <h2 class="food">Specials</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- PAV BHAJI  -->
+
+          <div class="accordion-item" id="i24">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentyFour" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Pav Bhaji</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentyFour" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Pav , Bhaji , Butter.
+                  <img src="./images/pav Bhaji.png" width="85px" height="60px" style="margin-left: 200px;">
+                </p>
+                <strong>Price = ₹<span">60</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i24)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHOLE BHATURE -->
+
+          <div class="accordion-item" id="i25">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentyFive" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Chole Bhature</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentyFive" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Chole , Bhature , Onion , Chutney.
+                  <img src="./images/chole bhature.png" width="85px" height="60px" style="margin-left: 100px;">
+                </p>
+                <strong>Price = ₹<span">60</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i25)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHOLE KULCHE -->
+
+          <div class="accordion-item" id="i26">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentySix" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Chole Kulche</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentySix" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Chole , Kulche , Butter , Onion , Chutney.
+                  <img src="./images/chole kulche.png" width="85px" height="60px" style="margin-left: 60px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i26)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FRIED RICE -->
+
+          <div class="accordion-item" id="i27">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentySeven" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Fried Rice</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentySeven" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Fried Rice.
+                  <img src="./images/fried rice.png" width="100px" height="70px" style="margin-left: 250px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i27)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MAGGI AND BURGER SECTION  -->
+
+  <section>
+
+    <div id="menu_collection">
+      <div class="fresh_juice">
+        <h2 class="menu_para" style="color: #89b758;">Menu</h2>
+        <h2 class="juice" style="color:#222222">Maggi & Burgers</h2>
+      </div>
+    </div>
+    <div class="maggiPastaBox">
+      <div class="maggiBox">
+        <div class="spc">
+          <h2 class="food">Maggi</h2>
+        </div>
+        <!-- MAGGI AND PASTA SECTION  -->
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- VEG MAGGI  -->
+
+          <div class="accordion-item" id="i28">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentyEight" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Veg Maggi</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentyEight" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Maggi.
+                  <img src="./images/maggi.png" width="100px" height="75px" style="margin-left: 300px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i28)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHESSE MAGGI -->
+
+          <div class="accordion-item" id="i29">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwentyNine" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Cheese Maggi</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwentyNine" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Cheese Maggi.
+                  <img src="./images/cheese maggi.png" width="100px" height="75px" style="margin-left: 230px;">
+                </p>
+                <strong>Price = ₹<span">60</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i29)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- RED SAUCE PASTA -->
+
+          <div class="accordion-item" id="i30">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirty" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Red Sauce Pasta</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirty" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Red Sauce Pasta.
+                  <img src="./images/red sauce pasta.png" width="100px" height="75px" style="margin-left: 210px;">
+                </p>
+                <strong>Price = ₹<span">70</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i30)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- WHITE SAUCE PASTA -->
+
+          <div class="accordion-item" id="i31">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirtyOne" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>White Sauce Pasta</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>White Sauce Pasta.
+                  <img src="./images/white sauce pasta.png" width="100px" height="75px" style="margin-left: 200px;">
+                </p>
+                <strong>Price = ₹<span">60</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i31)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BURGERS SECTION  -->
+
+      <div class="burgerBox">
+        <div class="spc">
+          <h2 class="food">Burgers</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+          <!-- VEG BURGER  -->
+
+          <div class="accordion-item" id="i32">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirtyTwo" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <h6>Veg Burger</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyTwo" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Veg Burger.
+                  <img src="./images/burger.png" width="80px" height="75px" style="margin-left: 250px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i32)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MEXICAN BURGER -->
+
+          <div class="accordion-item" id="i33">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirtyThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <h6>Mexican Burger</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Mexican Burger.
+                  <img src="./images/burger.png" width="80px" height="75px" style="margin-left: 230px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i33)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- TANDOORI BURGER -->
+
+          <div class="accordion-item" id="i34">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirtyFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Tandoori Burger</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyFour" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Tandoori Burger.
+                  <img src="./images/burger.png" width="80px" height="75px" style="margin-left: 230px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i34)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- SCHEZWAN BURGER -->
+
+          <div class="accordion-item" id="i35">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThirtyFive" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <h6>Schezwan Burger</h6>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyFive" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Schezwan Burger.
+                  <img src="./images/burger.png" width="80px" height="75px" style="margin-left: 230px;">
+                </p>
+                <strong>Price = ₹<span">50</span></strong>
+                <button class="orderBtn btn btn-success" onclick="addToCart(i35)">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <div class="space"></div>
+
+
+  <!-- contacts -->
+  <footer class="footer">
+
+    <h1 class="slogan-h1">
+      <span class="slogan-span" style="font-family:Roboto; color: black;">
+        Contacts</span>
+    </h1>
+
+
+
+    <div class="content">
+
+      <!-- contact details -->
+      <div class="contact">
+
+        <div class="c">
+          <img src="../IMAGES/location.png" class="size">
+          <div>
+            <p>ABESIT Campus Rd, near Crossing Republik, <br> Ghaziabad, Uttar Pradesh 201009</p>
+          </div>
+        </div>
+
+        <div class="c"><img src="../IMAGES/phone.png" class="size">
+          <p>+91 xxxxxxxxxx56</p>
+        </div>
+
+        <div class="c"><img src="../IMAGES/wall-clock.png" class="size">
+          <p>Monday to Saturday
+            08.00 AM to 6.00 PM</p>
+        </div>
+      </div>
+
+
+      <div class="para">
+        <img src="../IMAGES/restaurant.png" width="80px" height="65px" style="margin-bottom: 30px;">
+        <p>
+          We want you to experience a wholesome diet without breaking your bank! Go back to those good old days where
+          you can also get salubrious Juices, Smoothies and Breakfast Bowls!
+        </p>
+      </div>
+
+
+      <div class="buttons">
+
+        <div class="expand"><a href=""><img src="../IMAGES/facebook.png" class="size50"></div></a>
+        <div class="expand"><a href=""><img src="../IMAGES/instagram.png" class="size50"></div></a>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+  <script src="./menu.js"></script>
+</body>
+
+</html>
